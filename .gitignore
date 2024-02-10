@@ -195,3 +195,25 @@ compile_commands.json
 # Python development
 .venv
 venv
+
+# CMake build directories
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeTmp/
+*.cmake
+CMakeDoxyfile.in
+
+# CMake build directories
+godot-cpp/build/
+godot-cpp/out/
+godot-cpp/CMakeFiles/
+godot-cpp/CMakeCache.txt
+godot-cpp/CMakeScripts/
+godot-cpp/CMakeTmp/
+godot-cpp/*.cmake
+godot-cpp/CMakeDoxyfile.in
+
+Makefile
